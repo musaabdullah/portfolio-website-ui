@@ -6,6 +6,7 @@
     height: 75px;
     border-bottom: 1px solid rgb(102, 101, 101);
     box-shadow: 0px 0px 13px 0px;
+    transition: all 1s;
 }
 .navbar__logo {
     margin-left: 10px;
@@ -34,6 +35,7 @@
 }
 .navbar__item:hover {
     background-color: #ff0413;
+    transition: 200ms;
 }
 
 .navbar__item--active {

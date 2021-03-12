@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css';
+import * as AIcon from "react-icons/ai";
 import IMG from '../images/IMG1.jpg';
 function Home() {
     return (
@@ -18,10 +19,10 @@ function Home() {
                 </p>
                 <p className="right__find">Find Me on</p>
                 <div className="right__icon">
-                    <a className="icon__item" href="#">facebook</a>
-                    <a className="icon__item" href="#">Twitter</a>
-                    <a className="icon__item" href="#">Instegrm</a>
-                    <a className="icon__item" href="#">Linkedin</a>
+                    <a className="icon__item facebook" href="#"><AIcon.AiFillFacebook/></a>
+                    <a className="icon__item twitter" href="#"><AIcon.AiFillTwitterSquare/></a>
+                    <a className="icon__item github" href="#"><AIcon.AiFillGithub/></a>
+                    <a className="icon__item linkedin" href="#"><AIcon.AiFillLinkedin/></a>
                 </div>
                 <div className="right__btn">
                     <button className="btn btn-active">Hire Me</button>

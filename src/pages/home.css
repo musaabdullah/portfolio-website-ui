@@ -43,14 +43,31 @@
 
 .home__right .right__icon {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    font-size: 2em;
     width: 250px;
 }
 .home__right .right__icon .icon__item{
-    
+    margin-right: 10px;
     text-decoration: none;
-    color: white;
 }
+.facebook,.twitter,.github,.linkedin {
+ color: white;
+}
+
+.facebook:hover {
+    color: #0e8cf1;
+}
+.twitter:hover {
+    color: #1da1f2;
+}
+.linkedin:hover {
+    color: #0a66c2;
+}
+.github:hover{
+    color: #24292e;
+}
+
 
 .home__right .right__btn{
     margin-top: 20px;
