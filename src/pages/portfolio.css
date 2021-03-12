@@ -1,0 +1,76 @@
+.portfolio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.container {
+    width: 80%;
+}
+.portfolio__header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 25px;
+}
+
+
+.header__arrows {
+    font-size: 30px;
+    cursor: pointer;
+}
+.header__arrows span {
+    padding: 10px;
+}
+.header__arrows span:hover {
+ color: #ff0413;
+}
+
+
+.portfolio__footer {
+    width: 100%;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: green;  */
+    /* height: 20px; */
+}
+
+.card {
+    margin: 5px;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    /* padding: 10px; */
+    /* margin: 20px; */
+    text-align: center;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card .card__header img {
+    width: 300px;
+    height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card__body__title {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card__body .card__body__links {
+    width: 100%;
+    /* margin-bottom: 2px; */
+}
+.card__body .card__body__links a{
+    margin: 10px 34px;
+    text-decoration: none;
+}
