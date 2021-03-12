@@ -1,3 +1,32 @@
+
+
+@media screen and (max-width: 480px) {
+ .navbar{
+     flex-direction: column;
+     background-color:#0f0e3a;
+     z-index: 12;
+     position: fixed;
+     top: 0;
+ }
+ .navbar__logo {
+        font-size: 10px;
+        font-weight: bolder;    
+        margin-right: 100px;
+ }
+ .navbar__item--active {
+    background-color: #ff0413;
+}
+ .navbar__menu {
+     display: flex;
+     flex-direction: column;
+     background-color:#0f0e3a;
+     height: 500px;
+     width: 100%;
+     display: none;
+ }
+
+}
+
 .navbar {
     display: flex;
     width: 100%;

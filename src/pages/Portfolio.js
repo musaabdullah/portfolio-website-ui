@@ -5,9 +5,7 @@ import IMG from '../images/IMG1.jpg';
 import { useEffect } from 'react';
 import aos from 'aos';
 function Portfolio() {
-    useEffect(() => {
-        aos.init({ duration: 2000 })
-    })
+   
 
     return (
         <div className="portfolio">
@@ -22,11 +20,11 @@ function Portfolio() {
                 </div>
             </div>
             <div className="portfolio__footer">
-                <div data-aos="fade-up" className="card">
+                <div   className="card">
                     <div className="card__header">
                         <img src={IMG} />
                     </div>
-                    <div data-aos="fade-up" className="card__body">
+                    <div   className="card__body">
                         <div className="card__body__title">Project Name</div>
                         <div className="card__body__links">
                             <a href="#">Github link</a>
@@ -35,7 +33,7 @@ function Portfolio() {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className="card">
+                <div  className="card">
                     <div className="card__header">
                         <img src={IMG} />
                     </div>
@@ -47,7 +45,7 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className="card">
+                <div  className="card">
                     <div className="card__header">
                         <img src={IMG} />
                     </div>
@@ -59,43 +57,7 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className="card">
-                    <div className="card__header">
-                        <img src={IMG} />
-                    </div>
-                    <div className="card__body">
-                        <div className="card__body__title">Project Name</div>
-                        <div className="card__body__links">
-                            <a href="#">Github link</a>
-                            <a href="#">Online link</a>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" className="card">
-                    <div className="card__header">
-                        <img src={IMG} />
-                    </div>
-                    <div className="card__body">
-                        <div className="card__body__title">Project Name</div>
-                        <div className="card__body__links">
-                            <a href="#">Github link</a>
-                            <a href="#">Online link</a>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" className="card">
-                    <div className="card__header">
-                        <img src={IMG} />
-                    </div>
-                    <div className="card__body">
-                        <div className="card__body__title">Project Name</div>
-                        <div className="card__body__links">
-                            <a href="#">Github link</a>
-                            <a href="#">Online link</a>
-                        </div>
-                    </div>
-                </div>
-
+         
             </div>
             </div>
         </div>

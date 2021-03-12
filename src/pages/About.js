@@ -6,19 +6,15 @@ import 'aos/dist/aos.css';
 import aos from 'aos';
 function About() {
 
-    useEffect(() => {
-        aos.init({ duration: 2000 })
-    })
-
+  
     return (
-        <div data-aos="zoom-in" className="about">
+        <div   className="about">
             <div className="about__left">
                 <div className="about__header">
                     About Me
                 </div>
                 <p className="about__text">
-                    Lorem ipsum dolor sit amet, consecletur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat<br/><br/>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Creative web developer dedicated to developing and optimizing interactive, user-friendly, and feature-rich websites. leverage analytical skills andstrong attention to detail in order to deliver original and efficient web solutions, provide technical knowledge and expertise, build new websites from start to finish. 
                 </p>
                 <button className="btn__cv">
                     Download CV

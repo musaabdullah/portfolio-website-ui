@@ -6,12 +6,9 @@ import {useEffect} from 'react';
 import aos from 'aos';
 function Home() {
 
-    useEffect(() => {
-        aos.init({ duration: 2000 })
-    })
-
+   
     return (
-        <div  data-aos="fade-up" className="home">
+        <div    className="home">
             <section className="home__left">
                 <div className="left__outer">
                     <img className="left__img" src={IMG} />

@@ -1,3 +1,33 @@
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+
+    }
+   .about__left {
+       order: 2;
+       width: 400px;
+       text-align: center;
+   }
+   .about__right {
+       order: 1;
+   }
+.about__left .about__header {
+    
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.about__left .about__text{
+    width: 200px;
+    color: white;
+    margin-bottom:50px;
+} 
+}
+
 .about {
     margin-top: 120px;
     display: flex;

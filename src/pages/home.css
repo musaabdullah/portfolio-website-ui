@@ -1,3 +1,36 @@
+
+
+@media screen and (max-width: 480px){
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+  .home__right .right__icon {
+    display: flex;
+    margin-left: 60px;
+    /* justify-content: space-between; */
+    justify-content: center;
+    font-size: 1em;
+    width: 250px;
+    
+  }
+  .home__right .right__icon .icon__item{
+    margin-right: 10px;
+    text-decoration: none;
+  }   
+  .home__right .right__title {
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+}
+.home__right .left__title {
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+} 
+}
+
 .home {
     margin-top: 100px;
   display: flex;
