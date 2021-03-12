@@ -1,0 +1,65 @@
+.contact {
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contact__header {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.contact__form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__form .form__person {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.contact__form .form__person input{
+ width: 280px;
+ height: 34px;
+ padding: 10px;
+}
+
+.contact__form .form__group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.contact__form .form__group .form__subject{
+    width: 100%;
+    height: 34px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.contact__form .form__group .form__description {
+    height: 100px;
+    padding: 10px;
+}
+
+.form__btn {
+    text-align: center;
+}
+.form__btn .btn__hire{
+    width: 120px;
+    padding: 10px;
+    border-radius: 15px;
+    outline: 0px;
+    border: none;
+    color: white;
+    background-color: #ff0413;
+}
+
