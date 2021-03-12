@@ -2,9 +2,16 @@ import React from 'react'
 import './home.css';
 import * as AIcon from "react-icons/ai";
 import IMG from '../images/IMG1.jpg';
+import {useEffect} from 'react';
+import aos from 'aos';
 function Home() {
+
+    useEffect(() => {
+        aos.init({ duration: 2000 })
+    })
+
     return (
-        <div className="home">
+        <div  data-aos="fade-up" className="home">
             <section className="home__left">
                 <div className="left__outer">
                     <img className="left__img" src={IMG} />
@@ -12,7 +19,7 @@ function Home() {
             </section>
             <section className="home__right">
                 <div className="right__title">
-                    <span className="right__title">Mohammed</span> <span className="left__title">Modawe</span>
+                    <span className="right__title">Musa</span> <span className="left__title">Abdullah</span>
                 </div>
                 <p className="right__text">
                     A young ui/ux designer with crazy for mobile a web design 
@@ -20,9 +27,9 @@ function Home() {
                 <p className="right__find">Find Me on</p>
                 <div className="right__icon">
                     <a className="icon__item facebook" href="#"><AIcon.AiFillFacebook/></a>
-                    <a className="icon__item twitter" href="#"><AIcon.AiFillTwitterSquare/></a>
-                    <a className="icon__item github" href="#"><AIcon.AiFillGithub/></a>
-                    <a className="icon__item linkedin" href="#"><AIcon.AiFillLinkedin/></a>
+                    <a className="icon__item twitter" href="https://twitter.com/musaabdo18"><AIcon.AiFillTwitterSquare/></a>
+                    <a className="icon__item github" href="https://github.com/musaabdullah"><AIcon.AiFillGithub/></a>
+                    <a className="icon__item linkedin" href="https://www.linkedin.com/in/musa-abdullah-5aa302152/"><AIcon.AiFillLinkedin/></a>
                 </div>
                 <div className="right__btn">
                     <button className="btn btn-active">Hire Me</button>

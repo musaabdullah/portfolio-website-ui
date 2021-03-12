@@ -1,10 +1,17 @@
 import React from 'react'
 import './about.css';
 import IMG from '../images/IMG1.jpg';
-
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import aos from 'aos';
 function About() {
+
+    useEffect(() => {
+        aos.init({ duration: 2000 })
+    })
+
     return (
-        <div className="about">
+        <div data-aos="zoom-in" className="about">
             <div className="about__left">
                 <div className="about__header">
                     About Me
