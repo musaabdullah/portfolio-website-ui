@@ -19,7 +19,7 @@ function Home() {
                     <span className="right__title">Musa</span> <span className="left__title">Abdullah</span>
                 </div>
                 <p className="right__text">
-                    A young ui/ux designer with crazy for mobile a web design 
+                   Javascript developer | Node js, React js and Vue js
                 </p>
                 <p className="right__find">Find Me on</p>
                 <div className="right__icon">

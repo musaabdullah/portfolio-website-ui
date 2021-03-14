@@ -7,7 +7,7 @@
     }
    .about__left {
        order: 2;
-       width: 400px;
+       max-width: 400px;
        text-align: center;
    }
    .about__right {
@@ -22,7 +22,7 @@
 }
 
 .about__left .about__text{
-    width: 200px;
+    max-width: 200px;
     color: white;
     margin-bottom:50px;
 } 
@@ -42,7 +42,7 @@
 }
 
 .about__left .about__text {
-    width: 600px;
+    max-width: 600px;
     color: white;
     margin-bottom:50px;
 }
@@ -68,7 +68,7 @@
 }
 
 .about .about__right .about__outer .outer__img img{
-    width: 300px;
+     width: 300px;
     height: 300px;
     padding: 10px;
 }

@@ -5,11 +5,12 @@ function Testimonial({item}) {
     return (
         <>
            
+       
          
             <div className="outer">
              <div className="outer__image">
             {/* <img className="testimonail__img" src={IMG} /> */}
-            <img className="testimonail__img" scr={item.avatar} />
+            <img className="testimonail__img" src={item.avatar} />
              </div>
             </div>
             <div className="testimonial__name">
@@ -21,6 +22,8 @@ function Testimonial({item}) {
               <p>{item.email}</p>
             </div>
            
+       
+       
         </>
     )
 }

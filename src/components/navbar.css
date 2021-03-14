@@ -21,7 +21,7 @@
      flex-direction: column;
      background-color:#0f0e3a;
      height: 500px;
-     width: 100%;
+     max-width: 100%;
      display: none;
  }
 
@@ -29,7 +29,7 @@
 
 .navbar {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     justify-content: space-between;
     align-items: center;
     height: 75px;
@@ -56,7 +56,7 @@
 .navbar__menu .navbar__item {
     padding: 10px 20px;
     margin: 7px;
-    width: 40px;
+    max-width: 40px;
     border-radius: 40px;
     text-decoration: none;
     color: white;
